@@ -1,0 +1,153 @@
+.tab{
+    display: flex;
+    background-color: #00261b;
+    justify-content:space-evenly;
+    position: -webkit-sticky;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    z-index:999;
+    padding:13px;
+    color: white;
+    cursor: pointer;
+    top:0;
+}
+.cursor{
+    cursor: pointer;
+}
+.box:hover{
+    background-color: #4b4b4b;
+}
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.right{
+    align-self: center;
+}
+.Logo_img{
+    width: 65px;
+    height:95 px;
+    cursor: pointer;
+    margin-left: 15px;
+    margin-top: 5px; 
+}
+.Logo_img1{
+    width: 115px;
+    height:60px;
+    cursor: pointer;
+
+}
+.left{
+    flex:3;
+}
+.name1{
+    font-size: 30px;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.box{
+    margin-right: 10px;
+    padding: 7px;
+}
+.image{
+    width:1580px;
+    height: 730px;
+}
+.image_contain {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.text {
+    position: absolute;
+    left: 5%;
+    color: #00261b;
+    z-index: 1;
+}
+.big{
+    font-size: 45px;
+    top: 57%;
+    font-size: 55px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.small{
+    font-size: 20px;
+    top: 68%;
+}
+.textbox {
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+h3{
+    font-weight: normal;
+}
+.small_image{
+    border-radius: 20px;
+    top:68%;
+    left:29.9%;
+    width:50px;
+    height: 47.5px;
+}
+body{
+    background-color: #00261b;
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:larger;
+}
+.margin{
+    margin-left: 10px;
+}
+.playlist{
+    display: flex;
+    justify-content: space-between;
+}
+.episodes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.episode {
+    min-width: max-content;
+    margin-bottom: .8rem;
+    padding: .8rem 1rem;
+    border-radius: 10px;
+    border: 0;
+    background: #191414;
+    color: #fff;
+    cursor: pointer;
+}
+
+.episode:hover {
+    background: #0a3719;
+    color: white;
+}
+@media screen{
+    .podcast {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      gap: 1rem;
+    }
+}
+.fontsize{
+    font-size: large;
+    background-color: rgb(246, 243, 240);
+    color: black;
+}
+.end{
+    color: white;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+}
+.iframe{
+    display: flex;
+    justify-content: space-evenly;
+}

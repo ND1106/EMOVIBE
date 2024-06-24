@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <meta charset='UTF-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+        <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/style.css') }}">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+        <title>EMOVIBE</title>
+        <style>
+            body{
+                background-image: linear-gradient(to right, #001f16, #052c20, #063124, #318169, #23bc8e);}
+            #image{
+                background-image: linear-gradient(to right, #000000, #052c20, #063124, #318169, #bee9dc);}
+            .margin{
+                margin: 10px;
+            }
+        </style>
+    </head>
+<body>
+    <div class="tab" style="background-image: linear-gradient(to right, #001f16, #052c20, #063124, #318169, #23bc8e);">
+        <span class="left">
+          <a href="/">
+          <img class="Logo_img" src="/static/Logo.png">
+          <img class="Logo_img1" src="/static/EMOVIBE.png">
+        </span></a>
+        <div class="right">
+            <a href="/playlist"><span class="box" style="font-size: 26px; color: #ddf1ec;">CURATED PLAYLIST</span></a>
+        </div>
+    </div>
+    <div class="image_contain" id="image">
+        <img src="/static/Music.jpeg" class="image" style="opacity: 0.38;">
+        <img src="{{ url_for('video') }}" style="width:45%; top:8%; left:2%;" class="text">
+        <span class="text big" style="color: rgb(202, 248, 221); text-shadow: rgb(244, 247, 245) 0px 0px 5px; top:87%; left:2%">E M O V I B E</span>
+    </div>
+</body>
+</html>
